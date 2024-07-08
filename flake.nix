@@ -1,8 +1,8 @@
 {
-    description = "Arduino Uno D13 blinker in Rust with Nix";
+    description = "Crackhead engineering, Vol. 1: Clump of wires";
 
     inputs = {
-        nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+        nixpkgs.url = "github:nixos/nixpkgs/nixos-24.05";
         rust-overlay.url = "github:oxalica/rust-overlay";
     };
 

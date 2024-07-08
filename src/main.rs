@@ -1,7 +1,4 @@
 /*!
-
-**Blink the builtin LED - the "Hello World" of embedded programming.**
-
 # The Arduino UNO
 
 ```not-rust

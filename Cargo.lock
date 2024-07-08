@@ -17,14 +17,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "arduino_blink_rs"
-version = "0.1.0"
-dependencies = [
- "arduino-hal",
- "panic-halt",
-]
-
-[[package]]
 name = "atmega-hal"
 version = "0.1.0"
 source = "git+https://github.com/Rahix/avr-hal#afdadebd2c8bc0969bd2025f94617b64ca101014"
@@ -79,6 +71,14 @@ name = "bare-metal"
 version = "1.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f8fe8f5a8a398345e52358e18ff07cc17a568fbca5c6f73873d3a62056309603"
+
+[[package]]
+name = "broodmother"
+version = "0.1.0"
+dependencies = [
+ "arduino-hal",
+ "panic-halt",
+]
 
 [[package]]
 name = "cfg-if"
